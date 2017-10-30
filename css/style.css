@@ -1,74 +1,160 @@
-.site-container {
-  width: 980px;
+html {
+  font-family: "monospace" sans-serif serif;
+  font-size: 18px;
 }
-
+/*Site-Container*/
+.site-container {
+  display: flex;
+  width: 1920px;
+}
 /* Headercontainer/Header Navagation */
 .header-container {
-  display: flex;
-  width: 100%;
+  display: block;
+  width: 1920px;
   height:64px;
-  background-color: limegreen;
+  background-color: white;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 24px;
 }
 .logo-image {
-  display: inline-block;
-  align-items: center;
-  justify-content: space-between;
-  font-family: Helvetica;
-  font-size: 1rem;
-  font-weight: bold;
-  color: black;
+  display: flex;
   height: 1.5rem;
-  margin-left: 24px;
+  font-size: 1.25rem;
+  font weight: bold;
+  color: black;
   }
-.logo-image div span {
-  display: inline-block;
-  margin-left: 1rem;
+/* Header-Navigation */
+.nav-container {
+  display: flex;
+  width: auto;
+  margin-left: auto;
 }
 .header-nav {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  flex: stretch;
+  font-weight: 600;
 }
 .header-nav span {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: black;
+  align-content: center;
+}
+.header-nav span:hover {
+  font-size: 2rem;
+  color: white;
+  background-color:  rgb(89, 89, 89);
+  transition: font .750s ease-out .25s;
+}
+.header-nav span:visited {
+  background-color: purple;
+}
+#stripe {
+  width: 16px;
+  height: 64px;
+  background-color:  rgb(179, 218, 255);
+}
+/* Section-one-Banner */
+.banners-container {
+  display: flex;
+  width: 1920px;
+  height: auto;
+  color: rgb(89, 89, 89);
+  background-color: rgb(230, 230, 230);
 }
 
-/*Section-one-Banner*/
-.banner-section {
-  display: flex;
-  width: 100%;
-  height: auto;
-}
 .banner-column-one {
+  display: flex;
   justify-content: flex-start;
-  width: 60%;
+  width: 1152px;
+  height: auto;
+  margin: 32px 24px;
+  overflow: hidden;
 }
-.banner-image {
-  width: 60%;
-  display: block;
-  background-image:url("images/capstone_colmar_assets/images/banner.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 25rem;
-}
+
 .banner-column-two {
-  justify-content: flex-end;
+  display: flex;
   align-items: center;
+  width: 768px;
+  height: auto;
+  margin-left: 12px;
 }
-.banner-info {
-  text-align: center;
-  width: 40%;
+.banner-column-two h1 {
+  font-size: 3.5rem;
+  font weight: bold;
+}
+.banner-column-two p {
+  font-size: 2rem;
+  font-weight: 500;
 }
 .start-here-btn {
-  width: 13.33rem;
-  height: 4.5rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white;
-  padding: 1rem;
-  background-color: gray;
+  font-weight; 600;
+  text-align: center;
+  background-color: rgb(89, 89, 89);
+  margin: 1rem 1rem;
+}
+.start-here-btn:hover {
+  font-size: 2.75rem;
+  color: rgb(89, 89, 89);
+  background-color: rgb(179, 218, 255);
+  transition: font .750s ease-out .25s;
+}
+.start-here-btn:visited {
+  background-color: purple;
+}
+/* Practice-container*/
+.practice-container {
+  display: flex;
+  width: 1920px;
+  height: auto;
+  color: rgb(89, 89, 89);
+  background-color: white;
+  border: 1px solid rgb(217, 217, 217);
+}
+.practice-column-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 1152px;
+  height: auto;
+  margin: 32px 24px;
+}
+.practice-image-one {
+  width: 1152px;
+  height: auto;
+  overflow: hidden;
+}
+.practice-image-one h1 {
+  font-size: 3.5rem;
+  font weight: bold;
+}
+.practice-image-one p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.practice-column-two {
+  display: flex;
+  flex-direction: column;
+  width: 768px;
+  height: auto;
+  border: 1px solid red;
+}
+#adbox-one {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  border: 1px solid purple;
+}
+#adbox-two {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid purple;
+}
+#adbox-three {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid purple;
 }
