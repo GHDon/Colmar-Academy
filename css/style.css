@@ -150,6 +150,9 @@ html {
   width: 768px;
   border: 1px solid rgb(234, 233, 232);
 }
+#last-box .information-box {
+    background-color: rgb(230, 230, 230);
+}
 .image-box {
   display: flex;
   flex-direction: column;
@@ -196,3 +199,4 @@ html {
 #read-more:visited {
   color: rgb(128,0,128);
 }
+/* Section-three Start-learning */
