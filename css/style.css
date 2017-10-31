@@ -112,8 +112,9 @@ html {
   height: auto;
   color: rgb(89, 89, 89);
   background-color: white;
-  border: 1px solid rgb(217, 217, 217);
 }
+
+/* Practice-Section/Column-one*/
 .practice-column-one {
   display: flex;
   flex-direction: column;
@@ -135,26 +136,63 @@ html {
   font-size: 2rem;
   font-weight: 500;
 }
+
+/* Practice-section/Column-two*/
 .practice-column-two {
   display: flex;
   flex-direction: column;
   width: 768px;
-  height: auto;
-  border: 1px solid red;
+  height:auto;
 }
-#adbox-one {
+.information-box {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
-  border: 1px solid purple;
+  width: 768px;
+  border: 1px solid rgb(234, 233, 232);
 }
-#adbox-two {
+.image-box {
   display: flex;
-  flex-direction: row;
-  border: 1px solid purple;
+  flex-direction: column;
+  width: 268.80px;
+  margin: 16px;
 }
-#adbox-three {
+.text-box {
   display: flex;
-  flex-direction: row;
-  border: 1px solid purple;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  order: 2;
+  width: 499.20px;
+}
+.image-one {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  margin: 30px 16px 16px 16px;
+}
+.image-two {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  margin: 16px;
+}
+.image-three {
+  display: flex;
+  flex-direction: column:
+  order: 1;
+  margin: 16px;
+}
+#read-more {
+  background-color: white;
+  font-size: 18px;
+  color: rgb(0,0,255);
+}
+#read-more:hover {
+  font-size: 24px;
+  color: white;
+  background-color: rgb(0,0,255);
+  transition: font .50s ease-out .500ms;
+}
+#read-more:visited {
+  color: rgb(128,0,128);
 }
