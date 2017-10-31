@@ -150,8 +150,8 @@ html {
   width: 768px;
   border: 1px solid rgb(234, 233, 232);
 }
-#last-box .information-box {
-    background-color: rgb(230, 230, 230);
+#last-box.information-box {
+  background-color: rgb(230, 230, 230);
 }
 .image-box {
   display: flex;
@@ -185,18 +185,96 @@ html {
   order: 1;
   margin: 16px;
 }
-#read-more {
-  background-color: white;
+#read-more.btn {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(0,0,255);
+  width: 115px;
+  height: 40px;
+  radius: 35%;
+}
+/*
+div #read-more {
   font-size: 18px;
   color: rgb(0,0,255);
-}
-#read-more:hover {
+}*/
+#read-more.btn:hover {
   font-size: 24px;
   color: white;
-  background-color: rgb(0,0,255);
+  background-color: rgb(150, 131, 120);
   transition: font .50s ease-out .500ms;
 }
-#read-more:visited {
+#read-more.btn:visited {
   color: rgb(128,0,128);
 }
 /* Section-three Start-learning */
+.start-learning-container {
+  width: 1920px;
+  height: auto;
+  color:rgb(89, 89, 89);
+  background-color: rgb(230, 230, 230);
+}
+.start-learning-container h1 {
+  font-size: 64px;
+  margin-top: 32px;
+  text-align: center;
+}
+.inner-boxes-container {
+  display: flex;
+  flex-direction: row;
+}
+ .first-column {
+   display: flex;
+   flex-direction:column;
+ }
+ .box-one {
+   width: 570.65px;
+   height: auto;
+   margin: 32px 32px 32px 72px;
+   border: 1px solid purple;
+ }
+ .image-box {
+   margin-bottom: 16px;
+ }
+ .text-box h2 {
+   margin: 16px 0px 8px 16px;
+ }
+ .text-box h3 {
+   margin: 0px 0px 8px 16px;
+ }
+ .box-two {
+   width: 570.65px;
+   height: auto;
+   margin: 32px 32px 32px 72px;
+   border: 1px solid red;
+ }
+ .image-box {
+   margin-bottom: 16px;
+ }
+ .text-box h2 {
+   margin: 16px 0px 8px 16px;
+ }
+ .text-box h3 {
+   margin: 0px 0px 8px 16px;
+ }
+ /*
+ .second-column {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   width: 570.65px;
+   height: auto;
+   margin: 32px;
+   border: 1px solid red;
+
+ }
+ .third-column {
+   display: flex;
+   flex-direction: column;
+   width: 570.65px;
+   height: auto;
+   margin: 32px 0px 32px 32px;
+   border: 1px solid limegreen;
+
+ }
+*/
