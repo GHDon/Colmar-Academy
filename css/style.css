@@ -3,7 +3,7 @@ html {
   font-size: 18px;
 }
   h1 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
   }
   h2 {
@@ -229,25 +229,25 @@ html {
   background-color: rgb(230, 230, 230);
 }
 
-.inner-boxes-container {
+.multi-box-container {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
+  width: 1711.95px;
+  height: auto;
   margin: 32px 72px;
-  border: 2px solid black;
+  border: 3px solid rgb(230, 230, 230);
 }
  .first-column {
    display: flex;
    flex-direction:column;
+   width: 570.65px;
+   height: auto;
  }
  .box-one {
    display: block;
    width: 570.65px;
    height:auto;
-   margin: 32px 32px 32px 0px;
-   border: 1px solid purple;
-   order: 1;
-
  }
  .box-one.image {
    display: flex;
@@ -257,8 +257,6 @@ html {
    display: flex;
    width: 570.65px;
    height:auto;
-   margin: 32px 32px 32px 0px;
-   border: 1px solid black;
  }
  .box-two.image {
    display: flex;
@@ -268,13 +266,12 @@ html {
  .second-column {
    display: flex;
    flex-direction: column;
+   width: 1711.95px;
  }
  .box-one {
    display: flex;
    width: 570.65px;
    height:auto;
-   border: 1px solid purple;
-   order: 2;
  }
  .box-one.image {
    display: flex;
@@ -284,8 +281,6 @@ html {
    display: flex;
    width: 570.65px;
    height:auto;
-   border: 1px solid black;
-   order: 2;
  }
  .box-two.image {
    display: flex;
@@ -294,26 +289,24 @@ html {
  .third-column {
    display: flex;
    flex-direction: column;
+   width: 1711.95px;
+   height: auto;
  }
  .box-one {
-   display: block;
+   display: flex;
    width: 570.65px;
    height:auto;
-   border: 1px solid purple;
-   order: 3;
  }
  .box-one.image {
-   display: block;
+   display: flex;
    justify-content: center;
  }
  .box-two {
-   display: block;
+   display: flex;
    width: 570.65px;
    height:auto;
-   border: 1px solid black;
-   order: 3;
  }
  .box-two.image {
-   display: block;
+   display: flex;
    justify-content: center;
  }
