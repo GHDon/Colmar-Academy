@@ -3,11 +3,11 @@ html {
   font-size: 18px;
 }
   h1 {
-    font-size: 36px;
+    font-size: 54px;
     font-weight: bold;
   }
   h2 {
-    font-size: 28;
+    font-size: 36;
     font-weight: bold;
   }
   h3 {
@@ -146,7 +146,7 @@ html {
   overflow: hidden;
 }
 .practice-image-one h1 {
-  font-size: 3.5rem;
+  font-size: 54px;
   font weight: bold;
 }
 .practice-image-one p {
@@ -330,44 +330,87 @@ html {
   flex-direction: row;
   width: 1920px;
   height: auto;
-  background-color: white;
+  background-color: hotpink;
+}
+.thesis.container h1 {
+  font-size: 54px;
+  margin=top: 32px;
 }
 .section-one {
   display: flex;
   flex-direction: column;
-  width: 60%;
-
+  width: 1118.40px;
+  height: auto;
+  margin: 32px 24px 24px 24px;
+  border: 1px solid red;
 }
-.video {
-  width: 100%;
+.video-box {
+  width: 1116.40px;
+  justify-content: flex-start;
   height: auto;
 }
 .text-box {
-
+  width: 1118.64px;
+  height: auto;
+  margin: 8px 0px 32px 24px;
+  border: 1px solid green;
 }
+/*
 .section-two {
   display: flex;
-  flex-direction: row;
-
+  flex-direction: column;
+  width: 745.60px;
+  height: auto;
+  margin: 32px 8px 24px 24px;
+  border: 1px solid hotpink;
 }
 .fisma-box {
   display: flex;
   flex-direction: row;
+  width: 484.64px;
+  height: auto;
+  border: limegreen;
+}
+.fisma-image {
+  justify content: flex-start;
+  width: 35%;
+  height: auto;
+  margin: 16px;
+.fisma-text-box {
+  margin: 16px 0px 16px 16px;
+}
+.fisma-text-box {
+  width: 65%;
+  justify-content: flex-end;
 }
 .now-and-then {
- display: flex;
- flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  width: 484.64px;
 }
+.now-image {
+  justify-content: flex-start;
+  width: 35%;
+  height: auto;
+  margin: 24px 16px 0px 40px;
+}
+.now-text {
+  justify-content: flex-end;
+  width: 65%;
+  height auto;
+}
+
 .footer.container {
   display: display: row;
   width: 1920px;
   height: 102px;
 }
 .footer-container h2 {
-  align-text: left;
+  justify-content: flex-start;
   align-content: center;
 }
 .footer-container p {
-  align-text: right;
+  justify-content: flex-end;
   align-content: center;
 }
+*/
