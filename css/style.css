@@ -77,7 +77,7 @@ html {
   width: 1920px;
   height: auto;
   color: rgb(89, 89, 89);
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(239, 240, 242);
 }
 
 .banner-column-one {
@@ -91,6 +91,7 @@ html {
 
 .banner-column-two {
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 768px;
   height: auto;
@@ -167,7 +168,7 @@ html {
   border: 1px solid rgb(234, 233, 232);
 }
 #last-box.information-box {
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(239, 240, 242);
 }
 .image-box {
   display: flex;
@@ -226,9 +227,8 @@ html {
   padding-top: 32px;
   text-align: center;
   color:rgb(89, 89, 89);
-  background-color: rgb(230, 230, 230);
+  background-color:rgb(239, 240, 242);
 }
-
 .multi-box-container {
   display: flex;
   flex-direction: row;
@@ -236,18 +236,30 @@ html {
   width: 1711.95px;
   height: auto;
   margin: 32px 72px;
-  border: 3px solid rgb(230, 230, 230);
+}
+.multi-box-container h2{
+  text-align: left;
+  margin: 16px 0px 8px 16px;
+}
+.multi-box-container h3 {
+  text-align: left;
+  margin: 8px 0px 8px 16px;
+}
+.multi-box-container p {
+  text-align: left;
+  margin: 8px 0px 44px 16px;
 }
  .first-column {
    display: flex;
    flex-direction:column;
-   width: 570.65px;
+   width: 532px;
    height: auto;
  }
  .box-one {
    display: block;
-   width: 570.65px;
-   height:auto;
+   width: 532px;
+   height: 548px;
+   margin-bottom: 8px;
  }
  .box-one.image {
    display: flex;
@@ -255,8 +267,8 @@ html {
  }
  .box-two {
    display: flex;
-   width: 570.65px;
-   height:auto;
+   width: 532px;
+   height: 548px;
  }
  .box-two.image {
    display: flex;
@@ -266,47 +278,96 @@ html {
  .second-column {
    display: flex;
    flex-direction: column;
-   width: 1711.95px;
+   width: 532px;
  }
- .box-one {
+ .box-three {
    display: flex;
-   width: 570.65px;
-   height:auto;
+   width: 532px;
+   height: 548px;
  }
- .box-one.image {
+ .box-three.image {
    display: flex;
    justify-content: center;
  }
- .box-two {
+ .box-four {
    display: flex;
-   width: 570.65px;
-   height:auto;
+   width: 532px;
+   height: 548;
  }
- .box-two.image {
+ .box-four.image {
    display: flex;
    justify-content: center;
  }
  .third-column {
    display: flex;
    flex-direction: column;
-   width: 1711.95px;
-   height: auto;
+   width: 532px;
+   height: 548;
  }
- .box-one {
+ .box-five {
    display: flex;
-   width: 570.65px;
-   height:auto;
+   width: 532px;
+   height: 548px;
+   margin: 8px;
  }
- .box-one.image {
-   display: flex;
-   justify-content: center;
- }
- .box-two {
-   display: flex;
-   width: 570.65px;
-   height:auto;
- }
- .box-two.image {
+ .box-five.image {
    display: flex;
    justify-content: center;
  }
+ .box-six {
+   display: flex;
+   width: 532px;
+   height: 548px;
+ }
+ .box-six.image {
+   display: flex;
+   justify-content: center;
+ }
+
+/* Section-four thesis-container */
+.thesis-container {
+  display: flex;
+  flex-direction: row;
+  width: 1920px;
+  height: auto;
+  background-color: white;
+}
+.section-one {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+
+}
+.video {
+  width: 100%;
+  height: auto;
+}
+.text-box {
+
+}
+.section-two {
+  display: flex;
+  flex-direction: row;
+
+}
+.fisma-box {
+  display: flex;
+  flex-direction: row;
+}
+.now-and-then {
+ display: flex;
+ flex-direction: row;
+}
+.footer.container {
+  display: display: row;
+  width: 1920px;
+  height: 102px;
+}
+.footer-container h2 {
+  align-text: left;
+  align-content: center;
+}
+.footer-container p {
+  align-text: right;
+  align-content: center;
+}
