@@ -52,18 +52,24 @@ html {
 .header-nav {
   display: flex;
   align-items: center;
+  color: black;
   font-weight: 600;
+}
+.header-nav a {
+  color: black;
 }
 .header-nav span {
   align-content: center;
 }
-.header-nav span:hover {
+.header-nav a:hover {
   font-size: 2rem;
   color: white;
+  text-decoration: none;
   background-color:  rgb(89, 89, 89);
   transition: font .750s ease-out .25s;
 }
-.header-nav span:visited {
+.header-nav a:visited {
+  text-decoration: none;
   background-color: purple;
 }
 #stripe {
@@ -324,18 +330,21 @@ html {
    justify-content: center;
  }
 
-/* Section-four thesis-container */
-.thesis-container {
-   display: flex;
-   flex-direction: row;
-   width: 1920px;
-   height: auto;
-   margin-top: 32px;
+/* "Thesis-exhibit" Two-columns*/
+.header-container {
+  width: 1920px;
+  height: auto;
+  font-size: 32px;
+  padding-top: 32px;
+  text-align: center;
+  color:rgb(89, 89, 89);
+  background-color:rgb(239, 240, 242);
 }
-h1 {
-  font-size: 54px;
-  margin-top: 32px;
-  align-content: center;
+.multi-column-container {
+  display: flex;
+  flex-direction: row;
+  width: 1920px;
+  height: auto;
 }
 .section-one {
   display: flex;
@@ -346,9 +355,8 @@ h1 {
   margin: 32px 24px 24px 24px;
   border: 1px solid red;
 }
-.video-box video {
-  width: 1116.40px;
-  height: auto;
+.video-box {
+
 }
 .text-box {
   width: 1118.64px;
@@ -359,10 +367,11 @@ h1 {
 .text-box h2 {
   margin-bottom: 8px;
 }
-/*
 .section-two {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  float:right;
   width: 745.60px;
   height: auto;
   margin: 32px 8px 24px 24px;
@@ -384,8 +393,8 @@ h1 {
   margin: 16px 0px 16px 16px;
 }
 .fisma-text-box {
-  width: 65%;
   justify-content: flex-end;
+  width: 65%;
 }
 .now-and-then {
   display: flex;
@@ -403,7 +412,7 @@ h1 {
   width: 65%;
   height auto;
 }
-
+/*
 .footer.container {
   display: display: row;
   width: 1920px;
