@@ -326,47 +326,38 @@ html {
 
 /* Section-four thesis-container */
 .thesis-container {
-  display: flex;
-  flex-direction: row;
-  width: 1920px;
-  height: auto;
-  background-color: hotpink;
+   display: flex;
+   flex-direction: row;
+   width: 1920px;
+   height: auto;
+   margin-top: 32px;
 }
-.thesis.container h1 {
+h1 {
   font-size: 54px;
-  margin=top: 32px;
+  margin-top: 32px;
+  align-content: center;
 }
 .section-one {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   width: 1118.40px;
   height: auto;
   margin: 32px 24px 24px 24px;
   border: 1px solid red;
 }
-.section-one video {
-  margin-right: 801.60px;
-}
-/*
 .video-box video {
   width: 1116.40px;
-  justify-content: flex-start;
   height: auto;
 }
-    position:absolute;
-    top: 0px;
-    left:24px;
-    width:1118px;
-    border:2px solid blue;
-    display:block;
-    z-index:99;
-    }
-*/
 .text-box {
   width: 1118.64px;
   height: auto;
-  margin: 8px 0px 32px 24px;
+  margin: 24px 0px 32px 24px;
   border: 1px solid green;
+}
+.text-box h2 {
+  margin-bottom: 8px;
 }
 /*
 .section-two {
