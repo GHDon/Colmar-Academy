@@ -344,11 +344,24 @@ html {
   margin: 32px 24px 24px 24px;
   border: 1px solid red;
 }
-.video-box {
+.section-one video {
+  margin-right: 801.60px;
+}
+/*
+.video-box video {
   width: 1116.40px;
   justify-content: flex-start;
   height: auto;
 }
+    position:absolute;
+    top: 0px;
+    left:24px;
+    width:1118px;
+    border:2px solid blue;
+    display:block;
+    z-index:99;
+    }
+*/
 .text-box {
   width: 1118.64px;
   height: auto;
